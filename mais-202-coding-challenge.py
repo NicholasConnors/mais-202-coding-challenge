@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from itertools import cycle
-from matplotlib.font_manager import FontProperties
 
 #Load data from csv
 data = np.loadtxt('data.csv', str, delimiter=',') 
